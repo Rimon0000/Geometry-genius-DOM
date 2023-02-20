@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Geometry Genius</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/style.css">
+  </head>
+  <body>
+    <header>
+        <nav class="navbar navbar-expand-lg mt-4 m-4 px-4">
+            <div class="container-fluid">
+              <a class="navbar-brand font-family" href="#"><span class="logo">Interactive</span> <br> Geometry Genius </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              
+              <a href="blog.html"><button type="button" class="btn btn-primary btn-blog text-white">Blog</button></a>        
+            </div>
+          </nav>
+    </header>
+
+    <main>
+      <section class="mt-5 px-5">
+        <div class="row row-cols-1 row-cols-md-4 g-4 " id="random-color">
+          <div class="col" >
+            <div id="random-bg" class="card h-100 py-4 px-3">
+              <img src="images/triangle.png" class="card-img-top card-img" alt="...">
+              <div class="card-body text-center">
+                <h5 id="title-triangle" class="card-title mt-3">Triangle</h5>
+                <p class="p-area">Area(A) = 0.5 X b X h</p>
+                <input  class="input-field" type="text" name="" id="triangle-b-field" placeholder="b"><span class="input-cm"> cm</span>
+                <input  class="input-field" type="text" name="" id="triangle-h-field" placeholder="h"><span class="input-cm"> cm</span>
+                <button id="btn-triangle" type="button" class="btn btn-primary btn-calculate text-white mt-4">Calculate</button>
+              </div>
+            </div>
+          </div>
+          <div class="col" >
+            <div id="random-bg2" class="card h-100 py-4 px-3">
+              <img src="images/rectangle.png" class="card-img-top card-img" alt="...">
+              <div class="card-body text-center">
+                <h5 id="title-rectangle" class="card-title mt-3">Rectangle</h5>
+                <p class="p-area">Area(A) = w X l</p>
+                <input class="input-field" type="text" name="" id="rectangleWField" placeholder="w"><span class="input-cm"> cm</span>
+                <input class="input-field" type="text" name="" id="rectangleLField" placeholder="l"><span class="input-cm"> cm</span>
+                <button id="btn-rectangle" type="button" class="btn btn-primary btn-calculate text-white mt-4">Calculate</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div id="random-bg3" class="card h-100 py-4 px-3">
+              <img src="images/parallelogram.png" class="card-img-top card-img" alt="...">
+              <div class="card-body text-center">
+                <h5 id="title-parallelogram" class="card-title mt-3">Parallelogram</h5>
+                <p class="p-area">Area(A) = b X h</p>
+                <p class="p-area">b = <span id="bParallelogram">10</span>cm,  h = <span id="hParallelogram">12</span>cm</p>
+                <button id="btn-Parallelogram" type="button" class="btn btn-primary btn-calculate text-white mt-4">Calculate</button>
+              </div>
+            </div>
+          </div>
+          <div class="col w-40">
+            <div id="random-bg4" class="card h-100 py-4">
+                <h5 class="card-title area-title text-center">Area Calculation</h5>
+                <table >
+                  <thead>
+                    <tr>
+                      <th scope="col">No.</th>
+                      <th scope="col">Name</th>
+                      <th scope="col">Area</th>
+                      <th scope="col">Button</th>
+                    </tr>
+                  </thead>
+                  <tbody id="table-container">
+                    <!-- <tr>
+                      <th scope="row">1</th>
+                      <td>Mark</td>
+                      <td>Otto</td>
+                    </tr> -->
+                  </tbody>
+                </table>
+            </div>
+          </div>
+          <div class="col">
+            <div id="random-bg5" class="card h-100 py-4 px-3">
+              <img src="images/rhombus.png" class="card-img-top card-img" alt="...">
+              <div class="card-body text-center">
+                <h5 id="title-rhombus" class="card-title mt-3">Rhombus</h5>
+                <p class="p-area">Area(A) = 0.5 X d<sub>1</sub> X d<sub>2</sub></p>
+                <p class="p-area">d<sub>1</sub>= <span id="d1-rhombus">16</span>cm,  d<sub>2</sub>= <span id="d2-rhombus">8</span>cm</p>
+                <button id="btn-rhombus" type="button" class="btn btn-primary btn-calculate text-white mt-4">Calculate</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div id="random-bg6" class="card h-100 py-4 px-3">
+              <img src="images/pentagon.png" class="card-img-top card-img" alt="...">
+              <div class="card-body text-center">
+                <h5 id="title-pentagon" class="card-title mt-3">Pentagon</h5>
+                <p class="p-area">Area(A) = 0.5 X p X b</p>
+                <p class="p-area">p =<span id="p-pentagon">6</span>cm, b = <span id="b-pentagon">10</span>cm</p>
+                <button id="btn-pentagon" type="button" class="btn btn-primary btn-calculate text-white mt-4">Calculate</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div id="random-bg7" class="card h-100 py-4 px-3">
+              <img src="images/ellipse.png" class="card-img-top card-img" alt="...">
+              <div class="card-body text-center">
+                <h5 id="title-ellipse" class="card-title mt-3">Ellipse</h5>
+                <p class="p-area">Area(A) = πab</p>
+                <p class="p-area">a = <span id="a-ellipse">10</span>cm, b = <span id="b-ellipse">4</span>cm</p>
+                <button id="btn-ellipse" type="button" class="btn btn-primary btn-calculate text-white mt-4">Calculate</button>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </section>
+
+    </main>
+    
+    <script src="js/card.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>

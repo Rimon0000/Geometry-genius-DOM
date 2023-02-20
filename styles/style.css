@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@800&family=Inter&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital@0;1&family=Poppins:wght@400;500&family=Work+Sans:ital,wght@0,400;0,500;1,400&display=swap');
+/* common styles  */
+.font-family{
+    font-family: 'Inter', sans-serif;
+}
+.navbar{
+    background: rgba(16, 144, 216, 0.1);
+    border-radius: 8px;
+}
+.navbar-brand{
+    font-weight: 500;
+    font-size: 30px;
+    font-family: 'Inter';
+    color: rgba(17, 17, 17, 0.6);
+}
+
+.logo{
+    font-weight: 700;
+    font-size: 45px;
+    color: rgba(17, 17, 17, 0.8);
+}
+.btn-blog{
+    background: #1090D8;
+    border-radius: 8px;
+    width: 120px;
+    height: 48.37px;
+}
+
+/* card */
+.card-img{
+    height: 194px;
+}
+.card-title{
+    font-weight: 700;
+    font-size: 25px;
+    font-family: 'Inter';
+    color: #414141;
+}
+.p-area{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    color: #414141;
+}
+.input-field{
+    background: #F1F1F1;
+    border-radius: 4px;
+    width: 80px;
+    display: inline;
+}
+.input-cm{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+}
+.btn-calculate{
+    width: 220px;
+    height: 40px;
+    background: #1090D8;
+    border-radius: 8px;
+}
+.area-title{
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 20px;
+    text-decoration-line: underline;
+    color: rgba(17, 17, 17, 0.8);
+}
+
+
+/* Blog styles  */
+.header-title{
+    font-family: 'Inter';
+
+}
+.blog-title{
+    font-family: 'Inter';
+    color: darkgreen;
+    font-weight: 700px;
+    font-size: 30px;
+}
+.answer-p{
+    font-size: 19px;
+    font-family: 'Inter';
+    color: #414141;
+}
+
+/* convert button */
+.myButtonClass{
+    background: #1090D8;
+    border-radius: 8px;
+    width: 80px;
+    height: 25px;
+}
+#myButton{
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 9px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
